@@ -1,0 +1,97 @@
+.player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #181818;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-top: 1px solid #282828;
+}
+
+.player__left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 180px;
+}
+
+.player__albumCover {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.player__center {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 722px;
+  gap: 8px;
+}
+
+.player__controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.player__progress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #b3b3b3;
+  font-size: 11px;
+}
+
+.player__progressBar {
+  flex: 1;
+}
+
+.player__right {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.player__volume {
+  width: 93px;
+}
+
+.player__icon {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.player__icon:hover {
+  transform: scale(1.1);
+}
+
+.player__playButton {
+  font-size: 40px !important;
+  color: white;
+}
+
+/* Custom styles for MUI Slider */
+.MuiSlider-root {
+  color: #fff !important;
+  height: 4px !important;
+}
+
+.MuiSlider-thumb {
+  width: 12px !important;
+  height: 12px !important;
+  display: none !important;
+}
+
+.MuiSlider-root:hover .MuiSlider-thumb {
+  display: block !important;
+} 

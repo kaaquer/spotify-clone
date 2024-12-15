@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 20px;
+}
+
+.logo__svg {
+  width: 130px;
+  height: auto;
+  color: white;
+}
+
+.logo__text {
+  color: #1db954;
+  font-size: 24px;
+  font-weight: bold;
+} 
